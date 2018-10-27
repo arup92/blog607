@@ -97,7 +97,7 @@ a, a:hover, a:focus {
 
 .social-icons {
 
-	float: right;
+	float: left;
 	margin-left: 1rem;
 	line-height: 3.5rem;
 
@@ -109,9 +109,9 @@ a, a:hover, a:focus {
 
 	.social-icon {
 		&:after {
-	    	color: $white-color;
+	    	color: $green-color;
 	    	font: normal normal normal 1.6rem/1 FontAwesome;
-		}	
+		}
 	}
 
 	.facebook:after {
@@ -133,6 +133,10 @@ a, a:hover, a:focus {
 	.instagram:after {
 		content: "\f16d";
 	}
+}
+
+.right-side-account {
+	float: right;
 }
 
 /**
