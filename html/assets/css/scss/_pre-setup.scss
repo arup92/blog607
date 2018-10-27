@@ -5,16 +5,15 @@
 */
 
 @mixin transition($property) {
-    -webkit-transition: $property;
-    -ms-transition: $property;
-    transition: $property;
+   -webkit-transition: $property;
+   -ms-transition: $property;
+   transition: $property;
 }
 
 $green-color: #48d1cc;
 $red-color: #ff005b;
 $white-color: #fff;
 $dark-color: #1f1b1f;
-
 $font-size: 1.6rem;
 
 /**
@@ -70,14 +69,6 @@ a, a:hover, a:focus {
 	color: #fff;
 }
 
-.block {
-	padding: 1.6*4rem 0;
-}
-
-.row-content {
-	padding: 1.6*4rem;
-}
-
 .center {
 	text-align: center;
 }
@@ -94,38 +85,93 @@ a, a:hover, a:focus {
 	box-shadow: 0 10px 40px 0 rgba(0,0,0,0.1);
 }
 
-.margin-bottom {
-	margin-bottom: 4rem;
-}
-
-.title {
-	font-size: 2.2rem;
-	font-weight: 700;
-	font-style: italic;
-}
-
 .radius {
 	border-radius: .3rem;
 }
 
-.radius-big {
-	border-radius: 1.2rem;
+/**
+ * 
+ * #.# Top Bar
+ * 
+ */
+
+.social-icons {
+
+	float: right;
+	margin-left: 1rem;
+	line-height: 3.5rem;
+
+	li {
+		display: inline-block;
+		margin-right: 1rem;
+		list-style-type: none;
+	}
+
+	.social-icon {
+		&:after {
+	    	color: $white-color;
+	    	font: normal normal normal 1.6rem/1 FontAwesome;
+		}	
+	}
+
+	.facebook:after {
+    	content: "\f09a";
+	}
+
+	.twitter:after {
+	    content: "\f099";
+	}
+
+	.youtube:after {
+		content: "\f16a";
+	}
+
+	.google-plus:after {
+		content: "\f2b3";
+	}
+
+	.instagram:after {
+		content: "\f16d";
+	}
 }
 
-.slick-dots li.slick-active button:before {
-	color: $white-color;
+/**
+ * 
+ * #.# Header
+ * 
+ */
+
+/* Header Container */
+
+.site-header {
+	position: relative;
+	background-color: $white-color;
+
+	.row {
+		padding: 0;
+	}
 }
 
-.slick-dots li button:before {
-	font-size: 1.6*3rem;
-	color: $white-color;
+.site-title {
+	margin: 2rem 0px;
+
+	a {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+	}
 }
 
-.parallax {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+.vertical-align {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	align-items: center;
 }
 
 /* Navigation Menu */
