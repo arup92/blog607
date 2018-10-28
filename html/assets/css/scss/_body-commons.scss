@@ -26,12 +26,55 @@
     margin-left: 2%;
 
     h2 {
-    	font-size: 1.6rem;
+    	font-size: 1.6rem !important;
     	font-weight: 700;
     	margin-bottom: 0;
+    	margin-top: 0 !important;
     }
 
     p {
     	font-size: 1.3rem;
     }
+}
+
+.section-three {
+	.post-item {
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.big-category-section {
+		h2 {
+			margin-top: 1rem;
+		}
+	}
+
+	.post-item:last-child {
+		margin-right: 0;
+		margin-left: 1%;
+	}
+
+	h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-top: 1rem;
+		margin-bottom: .5rem;
+	}
+
+	.title {
+		color: $white-color;
+		background-color: $red-color;
+		font-weight: 700;
+		padding: .5rem 1rem;
+	}
+
+	hr {
+		border: 1px solid $red-color;
+		margin-top: 0;
+	}
+
+	.post-info {
+		margin-bottom: .8rem;
+	}
 }
