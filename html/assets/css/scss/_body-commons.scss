@@ -1,0 +1,37 @@
+/**
+ * --------------------------------------------------------------------------------
+ * Body Commons
+ * --------------------------------------------------------------------------------
+*/
+
+.big-category-section {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+
+.list-type-categories {
+	width: 50%;
+	float: left;
+}
+
+.left-content {
+    float: left;
+    width: 30%;
+}
+
+.right-contents {
+    float: left;
+    width: 68%;
+    margin-left: 2%;
+
+    h2 {
+    	font-size: 1.6rem;
+    	font-weight: 700;
+    	margin-bottom: 0;
+    }
+
+    p {
+    	font-size: 1.3rem;
+    }
+}

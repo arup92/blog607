@@ -476,7 +476,7 @@ th {
     display: flex;
     align-items: center;
   }
-  .u-full-width .six.columns  { width: 50%; }
+  .u-full-width .six.columns  { width: 48%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -553,7 +553,7 @@ body {
   font-weight: 400;
   font-family: "Open Sans", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #656565;
-  background-color: #f3f1f2;
+  background-color: #fff;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 

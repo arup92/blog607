@@ -77,15 +77,36 @@ a, a:hover, a:focus {
   border-radius: .3rem;
 }
 
+.vartical-align {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+}
+
+.full-image {
+  display: block;
+  width: 100%;
+}
+
 /**
  * 
  * #.# Top Bar
  * 
  */
+.top-bar-style {
+  background-image: url(../../img/line.png);
+  background-repeat: repeat-x;
+  height: .5rem;
+  width: 100%;
+}
+
 .social-icons {
   float: left;
   margin-left: 1rem;
-  line-height: 3.5rem;
+  line-height: 1.6rem;
 }
 .social-icons li {
   display: inline-block;
@@ -93,7 +114,7 @@ a, a:hover, a:focus {
   list-style-type: none;
 }
 .social-icons .social-icon:after {
-  color: mediumturquoise;
+  color: white;
   font: normal normal normal 1.6rem/1 FontAwesome;
 }
 .social-icons .facebook:after {
@@ -114,6 +135,21 @@ a, a:hover, a:focus {
 
 .right-side-account {
   float: right;
+  color: #fff;
+}
+.right-side-account p {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.top-bar {
+  background-color: #222;
+}
+
+.nav-manu {
+  background-color: #f3f3f3;
+  box-shadow: 0px 15px 9px -14px rgba(0, 0, 0, 0.2);
 }
 
 /**
@@ -122,6 +158,10 @@ a, a:hover, a:focus {
  * 
  */
 /* Header Container */
+.header-main {
+  padding: 1.6rem 0;
+}
+
 .site-header {
   position: relative;
   background-color: white;
@@ -152,7 +192,6 @@ a, a:hover, a:focus {
 
 /* Navigation Menu */
 nav {
-  float: right;
   position: relative;
   z-index: 2;
 }
@@ -173,7 +212,7 @@ nav a {
 .main-nav > li > a {
   color: mediumturquoise;
   display: block;
-  padding: 2.4rem 1.6rem;
+  padding: 1.6rem 1.6rem;
 }
 
 .white-header .main-nav > li > a {
@@ -394,4 +433,38 @@ nav a {
   .mobile-navigation {
     display: none;
   }
+}
+/**
+ * --------------------------------------------------------------------------------
+ * Body Commons
+ * --------------------------------------------------------------------------------
+*/
+.big-category-section {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+
+.list-type-categories {
+  width: 50%;
+  float: left;
+}
+
+.left-content {
+  float: left;
+  width: 30%;
+}
+
+.right-contents {
+  float: left;
+  width: 68%;
+  margin-left: 2%;
+}
+.right-contents h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.right-contents p {
+  font-size: 1.3rem;
 }

@@ -89,17 +89,39 @@ a, a:hover, a:focus {
 	border-radius: .3rem;
 }
 
+.vartical-align {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	align-items: center;
+}
+
+.full-image {
+	display: block;
+	width: 100%;
+}
+
 /**
  * 
  * #.# Top Bar
  * 
  */
 
+ .top-bar-style {
+ 	background-image: url(../../img/line.png);
+ 	background-repeat: repeat-x;
+ 	height: .5rem;
+ 	width: 100%;
+ }
+
 .social-icons {
 
 	float: left;
 	margin-left: 1rem;
-	line-height: 3.5rem;
+	line-height: 1.6rem;
 
 	li {
 		display: inline-block;
@@ -109,7 +131,7 @@ a, a:hover, a:focus {
 
 	.social-icon {
 		&:after {
-	    	color: $green-color;
+	    	color: $white-color;
 	    	font: normal normal normal 1.6rem/1 FontAwesome;
 		}
 	}
@@ -137,6 +159,21 @@ a, a:hover, a:focus {
 
 .right-side-account {
 	float: right;
+	color:#fff;
+
+	p {
+		margin-bottom: 0;
+		font-size: 1.4rem;
+    	line-height: 2.6rem;
+	}
+}
+
+.top-bar {
+    background-color: #222;
+}
+.nav-manu{
+	background-color: #f3f3f3;
+	box-shadow: 0px 15px 9px -14px rgba(0, 0, 0, 0.2);
 }
 
 /**
@@ -146,6 +183,10 @@ a, a:hover, a:focus {
  */
 
 /* Header Container */
+
+.header-main {
+    padding: 1.6rem 0;
+}
 
 .site-header {
 	position: relative;
@@ -181,7 +222,6 @@ a, a:hover, a:focus {
 /* Navigation Menu */
 
 nav {
-	float: right;
 	position: relative;
 	z-index: 2;
 }
@@ -202,7 +242,7 @@ nav a {
 .main-nav>li>a {
 	color: $green-color;
 	display: block;
-	padding: 2.4rem 1.6rem;
+	padding: 1.6rem 1.6rem;
 }
 
 .white-header .main-nav>li>a {
