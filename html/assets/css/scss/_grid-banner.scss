@@ -1,0 +1,27 @@
+/**
+ * --------------------------------------------------------------------------------
+ * Grid banner
+ * --------------------------------------------------------------------------------
+*/
+.section-one {
+	.x-large,
+	.medium-post-section {
+		float: left;
+	}
+
+	.x-large {
+		width: 66%;
+		margin-right: .5%;
+		height: 40rem;
+	}
+
+	.medium-post-section {
+		width: 33%;
+		margin-left: .5%;
+	}
+
+	.small-post {
+		width: 50%;
+		float: left;
+	}
+}
