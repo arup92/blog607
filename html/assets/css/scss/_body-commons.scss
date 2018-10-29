@@ -36,6 +36,23 @@
     	font-size: 1.3rem;
     }
 }
+.section-two{
+	.title {
+		color: $white-color;
+		background-color: $green-color;
+		font-weight: 700;
+		padding: .5rem 1rem;
+	}
+
+	hr {
+		border: 1px solid $green-color;
+		margin-top: 0;
+	}
+
+	.post-info {
+		margin-bottom: .8rem;
+	}
+}
 
 .section-three {
 	.post-item {
@@ -71,6 +88,24 @@
 
 	hr {
 		border: 1px solid $red-color;
+		margin-top: 0;
+	}
+
+	.post-info {
+		margin-bottom: .8rem;
+	}
+}
+
+.section-four{
+	.title {
+		color: $white-color;
+		background-color: $dark-color;
+		font-weight: 700;
+		padding: .5rem 1rem;
+	}
+
+	hr {
+		border: 1px solid $dark-color;
 		margin-top: 0;
 	}
 
