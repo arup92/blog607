@@ -1,5 +1,7 @@
 ( function($) {
 
+	$('.marquee').marquee();
+
 	$( '.zoom' ).on( {
 		mouseover: function () {
 			$( this ).find( 'img' ).addClass( 'zoom-in' ).removeClass( 'zoom-out' );
