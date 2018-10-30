@@ -1,6 +1,5 @@
 ( function($) {
-
-	$('.marquee').marquee();
+	$('.js-marquee').marquee();
 
 	$( '.zoom' ).on( {
 		mouseover: function () {
