@@ -3,6 +3,12 @@
  * Body Commons
  * --------------------------------------------------------------------------------
 */
+.marquee {
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
 
 .big-category-section {
 	width: 48%;
