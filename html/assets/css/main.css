@@ -546,6 +546,20 @@ nav a {
   background: #ccc; }
 >>>>>>> b7641b1d642d37326dd506bff1b9a64e9e932106
 
+<<<<<<< HEAD
+=======
+/**
+ * --------------------------------------------------------------------------------
+ * Body Commons
+ * --------------------------------------------------------------------------------
+*/
+.marquee {
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ccc; }
+
+>>>>>>> b7641b1d642d37326dd506bff1b9a64e9e932106
 .big-category-section {
   width: 48%;
   float: left;
