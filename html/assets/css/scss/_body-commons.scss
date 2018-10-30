@@ -119,3 +119,34 @@
 		margin-bottom: .8rem;
 	}
 }
+
+.more-fancy-h{
+	h5 {
+		position: relative;
+		text-align: center;
+	}
+
+	.more-skew {
+		background: #ff005b;
+		color: #fff;
+		font-weight: 700;
+		margin: 20px;
+		display: inline-block;
+		padding: 0 15px;
+		transform: skewX(-10deg);
+	}
+
+	h5:before {
+		content: "";
+		background: #ff005b;
+		display: block;
+		height: 2px;
+		position: absolute;
+		top: 50%;
+		width: 100%;
+	}
+
+	h5:before {
+	  left: 0;
+	}
+}
