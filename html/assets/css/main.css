@@ -535,6 +535,28 @@ nav a {
 .section-four .post-info {
   margin-bottom: .8rem; }
 
+.more-fancy-h h5 {
+  position: relative;
+  text-align: center; }
+.more-fancy-h .more-skew {
+  background: #ff005b;
+  color: #fff;
+  font-weight: 700;
+  margin: 20px;
+  display: inline-block;
+  padding: 0 15px;
+  transform: skewX(-10deg); }
+.more-fancy-h h5:before {
+  content: "";
+  background: #ff005b;
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  width: 100%; }
+.more-fancy-h h5:before {
+  left: 0; }
+
 /**
  * --------------------------------------------------------------------------------
  * Footer & Buttom-Bar style
