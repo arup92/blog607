@@ -91,6 +91,9 @@ a, a:hover, a:focus {
   transform: rotate(0deg) scale(1);
   transition: all .2s ease-in-out; }
 
+.shadow {
+  box-shadow: 0 1px 1px 0 rgba(0, 1, 1, 0.1); }
+
 /**
  * 
  * #.# Top Bar
@@ -438,7 +441,6 @@ nav a {
 .sidebar {
   background: white;
   border-color: black;
-  box-shadow: 0 1px 1px 0 rgba(0, 1, 1, 0.1);
   padding: 3.5rem 3rem; }
   .sidebar .list-item {
     border-bottom: 0.1rem solid #efefef;
@@ -454,10 +456,12 @@ nav a {
  * --------------------------------------------------------------------------------
 */
 .marquee {
-  width: 300px;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background: #ccc; }
+  padding: 1.6rem 0;
+  margin: 1.6rem 0;
+  overflow: hidden; }
+
+.js-marquee a {
+  padding: 0 2.4rem; }
 
 .big-category-section {
   width: 48%;
