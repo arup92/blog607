@@ -84,11 +84,11 @@ a, a:hover, a:focus {
   z-index: 1; }
 
 .zoom-in {
-  transform: scale(1.1);
+  transform: rotate(4deg) scale(1.2);
   transition: all .2s ease-in-out; }
 
 .zoom-out {
-  transform: scale(1);
+  transform: rotate(0deg) scale(1);
   transition: all .2s ease-in-out; }
 
 /**
@@ -405,7 +405,7 @@ nav a {
   margin-right: .1%;
   height: 40rem; }
 .section-one .medium-post-section {
-  width: 35.4%;
+  width: 37.4%;
   margin-left: .1%; }
   .section-one .medium-post-section .full-post {
     height: 24.7rem;
@@ -439,8 +439,7 @@ nav a {
   background: white;
   border-color: black;
   box-shadow: 0 1px 1px 0 rgba(0, 1, 1, 0.1);
-  padding: 35px 40px;
-}
+  padding: 35px 40px; }
 
 /**
  * --------------------------------------------------------------------------------

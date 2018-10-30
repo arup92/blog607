@@ -113,12 +113,12 @@ a, a:hover, a:focus {
 }
 
 .zoom-in {
-	transform: scale(1.1);
+	transform: rotate(4deg) scale(1.2);
 	transition: all .2s ease-in-out;
 }
 
 .zoom-out {
-	transform: scale(1);
+	transform: rotate(0deg) scale(1);
 	transition: all .2s ease-in-out;
 }
 
