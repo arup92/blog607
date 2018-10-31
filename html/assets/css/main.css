@@ -148,6 +148,9 @@ a, a:hover, a:focus {
  * 
  */
 /* Header Container */
+.u-full-width .header {
+  background-color: #fff; }
+
 .header-main {
   padding: 1.6rem 0; }
 
