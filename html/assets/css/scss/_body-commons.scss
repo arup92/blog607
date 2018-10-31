@@ -4,10 +4,35 @@
  * --------------------------------------------------------------------------------
 */
 
+.news-marquee {
+	margin: 2.4rem 0;
+}
+
+.exclusive-news {
+	background-color: $red-color;
+	color: $white-color;
+	font-weight: 700;
+	width: 10%;
+	padding: .5rem 0;
+	float: left;
+
+	span {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
 .marquee {
-	padding: 1.6rem 0;
-	margin: 1.6rem 0;
+	width: 90%;
+	padding: .5rem 0;
+	float: left;
 	overflow: hidden;
+
+	a {
+		color: $dark-color;
+		font-weight: 700;
+	}
 }
 
 .js-marquee {

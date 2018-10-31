@@ -455,10 +455,29 @@ nav a {
  * Body Commons
  * --------------------------------------------------------------------------------
 */
+.news-marquee {
+  margin: 2.4rem 0; }
+
+.exclusive-news {
+  background-color: #ff005b;
+  color: white;
+  font-weight: 700;
+  width: 10%;
+  padding: .5rem 0;
+  float: left; }
+  .exclusive-news span {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+
 .marquee {
-  padding: 1.6rem 0;
-  margin: 1.6rem 0;
+  width: 90%;
+  padding: .5rem 0;
+  float: left;
   overflow: hidden; }
+  .marquee a {
+    color: #404040;
+    font-weight: 700; }
 
 .js-marquee a {
   padding: 0 2.4rem; }
@@ -526,11 +545,11 @@ nav a {
 
 .section-four .title {
   color: white;
-  background-color: #1f1b1f;
+  background-color: #404040;
   font-weight: 700;
   padding: .5rem 1rem; }
 .section-four hr {
-  border: 1px solid #1f1b1f;
+  border: 1px solid #404040;
   margin-top: 0; }
 .section-four .post-info {
   margin-bottom: .8rem; }
