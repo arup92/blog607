@@ -91,6 +91,11 @@ a, a:hover, a:focus {
   transform: rotate(0deg) scale(1);
   transition: all .2s ease-in-out; }
 
+.block {
+  background-color: white;
+  margin-bottom: 2.4rem;
+  padding: 2.4rem; }
+
 .shadow {
   box-shadow: 0 1px 1px 0 rgba(0, 1, 1, 0.1); }
 
@@ -478,9 +483,9 @@ nav a {
  * --------------------------------------------------------------------------------
 */
 .sidebar {
-  background: white;
-  border-color: black;
-  padding: 2.4rem; }
+  margin-top: 2.4rem; }
+  .sidebar .sidebar-widget:last-child {
+    margin-bottom: 0; }
   .sidebar .list-item {
     border-bottom: 0.1rem solid #efefef;
     padding-bottom: 1rem;
@@ -641,9 +646,8 @@ nav a {
  * --------------------------------------------------------------------------------
 */
 .footer {
-  background-color: #020202; }
-  .footer .block {
-    padding: 4.8rem 0; }
+  background-color: #020202;
+  padding: 4.8rem 0; }
   .footer .footer-abt-text {
     color: #fff;
     padding: 1.6rem 0; }

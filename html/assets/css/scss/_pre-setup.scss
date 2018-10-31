@@ -122,6 +122,13 @@ a, a:hover, a:focus {
 	transition: all .2s ease-in-out;
 }
 
+
+.block {
+	background-color: $white-color;
+	margin-bottom: 2.4rem;
+	padding: 2.4rem;
+}
+
 .shadow {
 	box-shadow: 0 1px 1px 0 rgba(0, 1, 1, 0.1);
 }
