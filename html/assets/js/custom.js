@@ -1,8 +1,7 @@
 ( function($) {
 
 	$('.slider-banner').slick( {
-		// autoplay: true,
-  // 		autoplaySpeed: 2000,
+	
 	} );
 
 	$('.marquee').marquee({
