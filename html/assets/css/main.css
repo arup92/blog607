@@ -180,7 +180,7 @@ a, a:hover, a:focus {
  * 
  */
 /* Header Container */
-.u-full-width .header {
+.header {
   background-color: #fff;
 }
 
@@ -569,6 +569,7 @@ nav a {
 }
 
 .marquee {
+  background-color: #fff;
   width: 90%;
   padding: .5rem 0;
   float: left;
@@ -677,6 +678,9 @@ nav a {
 .more-fancy-h h5 {
   position: relative;
   text-align: center;
+}
+.more-fancy-h a {
+  color: #fff;
 }
 .more-fancy-h .more-skew {
   background: #ff005b;

@@ -24,6 +24,7 @@
 }
 
 .marquee {
+	background-color: #fff;
 	width: 90%;
 	padding: .5rem 0;
 	float: left;
@@ -155,6 +156,10 @@
 	h5 {
 		position: relative;
 		text-align: center;
+	}
+
+	a {
+		color:#fff;
 	}
 
 	.more-skew {
