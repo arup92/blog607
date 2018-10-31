@@ -151,14 +151,14 @@
 	}
 }
 
-.more-fancy-h{
+.more-fancy-h {
 	h5 {
 		position: relative;
 		text-align: center;
 	}
 
 	.more-skew {
-		background: #ff005b;
+		background: $red-color;
 		color: #fff;
 		font-weight: 700;
 		margin: 20px;
@@ -169,7 +169,7 @@
 
 	h5:before {
 		content: "";
-		background: #ff005b;
+		background: $red-color;
 		display: block;
 		height: 2px;
 		position: absolute;

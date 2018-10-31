@@ -1,5 +1,10 @@
 ( function($) {
 
+	$('.slider-banner').slick( {
+		// autoplay: true,
+  // 		autoplaySpeed: 2000,
+	} );
+
 	$('.marquee').marquee({
 		//speed in milliseconds of the marquee in milliseconds
 		duration: 30000,

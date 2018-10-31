@@ -15,7 +15,6 @@
 	.full-post,
 	.small-post {
 		position: relative;
-		overflow: hidden;
 	}
 
 	.x-large,
@@ -28,6 +27,11 @@
 		width: 62.4%;
 		margin-right: .1%;
 		height: 40rem;
+	}
+
+	.slide-banner {
+		position: relative;
+		overflow: hidden;
 	}
 
 	.medium-post-section {
