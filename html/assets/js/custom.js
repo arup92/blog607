@@ -1,9 +1,29 @@
 ( function($) {
 
+	/**
+	 * Slick Slider
+	 */
+
 	$('.slider-banner').slick( {
-	
+		dots			: false,
+		arrows			: false,
+		autoplay		: true,
+		autoplaySpeed	: 10000,
+		cssEase			: 'ease-out',
 	} );
 
+	$( '.slide-prev' ).click( function(){
+		$( '.slider-banner' ).slick( 'slickPrev' );
+	} );
+
+	$( '.slide-next' ).click( function() {
+		$( '.slider-banner' ).slick( 'slickNext' );
+	} );
+
+
+	/**
+	 * Js Marquee
+	 */
 	$('.marquee').marquee({
 		//speed in milliseconds of the marquee in milliseconds
 		duration: 30000,
