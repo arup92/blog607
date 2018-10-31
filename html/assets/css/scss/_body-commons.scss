@@ -74,19 +74,18 @@
     	font-size: 1.3rem;
     }
 }
+
+.section-two,
+.section-three,
+.section-four {
+	margin-top: 2.4rem;
+
+	p {
+		margin-bottom: .5rem;
+	}
+}
+
 .section-two{
-	.title {
-		color: $white-color;
-		background-color: $green-color;
-		font-weight: 700;
-		padding: .5rem 1rem;
-	}
-
-	hr {
-		border: 1px solid $green-color;
-		margin-top: 0;
-	}
-
 	.post-info {
 		margin-bottom: .8rem;
 	}
@@ -115,18 +114,6 @@
 		font-weight: 700;
 		margin-top: 1rem;
 		margin-bottom: .5rem;
-	}
-
-	.title {
-		color: $white-color;
-		background-color: $red-color;
-		font-weight: 700;
-		padding: .5rem 1rem;
-	}
-
-	hr {
-		border: 1px solid $red-color;
-		margin-top: 0;
 	}
 
 	.post-info {
@@ -184,5 +171,31 @@
 
 	h5:before {
 	  left: 0;
+	}
+}
+
+.section-title-blue {
+	border-bottom: .2rem solid $green-color;
+	overflow: hidden;
+	margin-bottom: 1rem;
+
+	.title {
+		color: $white-color;
+		background-color: $green-color;
+		font-weight: 700;
+		padding: .5rem 1rem;
+	}
+}
+
+.section-title-red {
+	border-bottom: .2rem solid $red-color;
+	overflow: hidden;
+	margin-bottom: 1rem;
+
+	.title {
+		color: $white-color;
+		background-color: $red-color;
+		font-weight: 700;
+		padding: .5rem 1rem;
 	}
 }
