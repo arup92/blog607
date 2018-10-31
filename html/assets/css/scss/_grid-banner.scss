@@ -15,6 +15,7 @@
 	.full-post,
 	.small-post {
 		position: relative;
+		overflow: hidden;
 	}
 
 	.x-large,
@@ -26,12 +27,12 @@
 	.x-large {
 		width: 62.4%;
 		margin-right: .1%;
-		height: 40rem;
 	}
 
 	.slide-banner {
 		position: relative;
 		overflow: hidden;
+		height: 40rem;
 	}
 
 	.medium-post-section {
@@ -71,5 +72,46 @@
 		left: 0;
 		bottom: 0;
 		z-index: 2;
+	}
+}
+
+.slide-nav {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+
+	div {
+		display: inline-block;
+	}
+}
+
+.slide-next {
+
+	background-color: $white-color;
+	padding: 0 1rem;
+	cursor: pointer;
+	float: left;
+
+	&:after {
+		content: "\f105";
+		color: $dark-color;
+	    font: normal normal normal 2.4rem/1 FontAwesome;
+	}
+}
+
+.slide-prev {
+
+	background-color: $white-color;
+	margin-right: .2rem;
+	padding: 0 1rem;
+	cursor: pointer;
+	float: left;
+
+	&:after {
+		content: "\f104";
+		color: $dark-color;
+	    font: normal normal normal 2.4rem/1 FontAwesome;
 	}
 }
