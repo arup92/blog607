@@ -397,8 +397,7 @@ nav a {
 .section-one .medium-post-section,
 .section-one .full-post,
 .section-one .small-post {
-  position: relative;
-  overflow: hidden; }
+  position: relative; }
 .section-one .x-large,
 .section-one .medium-post-section,
 .section-one .small-post {
@@ -407,6 +406,9 @@ nav a {
   width: 62.4%;
   margin-right: .1%;
   height: 40rem; }
+.section-one .slide-banner {
+  position: relative;
+  overflow: hidden; }
 .section-one .medium-post-section {
   width: 37.4%;
   margin-left: .1%; }
