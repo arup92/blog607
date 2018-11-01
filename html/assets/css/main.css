@@ -191,7 +191,7 @@ a, a:hover, a:focus {
 }
 
 .header-main {
-  padding: 1.6rem 0;
+  padding: 2.6rem 0;
 }
 
 .site-header {
@@ -679,6 +679,13 @@ nav a {
   margin-bottom: .8rem;
 }
 
+.author {
+  background-color: mediumturquoise;
+  padding: 0.2rem .5rem;
+  color: white;
+  font-weight: 600;
+}
+
 .section-three .post-item {
   width: 49%;
   float: left;
@@ -792,7 +799,7 @@ nav a {
 .footer .recent-posts h2 {
   color: #fff;
 }
-.footer .Pupolar-posts h5 {
+.footer .pupolar-posts h5 {
   color: #fff;
   border-bottom: 0;
   font-size: 2.4rem;
@@ -800,7 +807,7 @@ nav a {
   margin-bottom: 2.6rem;
   margin-top: .2rem;
 }
-.footer .Pupolar-posts h2 {
+.footer .pupolar-posts h2 {
   color: #fff;
 }
 
