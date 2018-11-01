@@ -101,12 +101,6 @@
 		margin-bottom: .8rem;
 	}
 }
-.author {
-    background-color: $green-color;
-    padding: 0.2rem .5rem;
-    color:$white-color ;
-    font-weight: 600;
-}
 
 .section-three {
 	.post-item {
@@ -216,5 +210,16 @@
 
 	.title {
 		background-color: $red-color;
+	}
+}
+
+.post-overlay {
+	position: relative;
+	margin-bottom: .2rem;
+	overflow: hidden;
+
+	h3 {
+		font-size: 1.8rem;
+		font-weight: 700;
 	}
 }

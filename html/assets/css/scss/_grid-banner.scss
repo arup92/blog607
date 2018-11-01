@@ -64,15 +64,15 @@
 			}
 		}
 	}
+}
 
-	.post-content {
-		color: $white-color;
-		padding: 0 1rem;
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		z-index: 2;
-	}
+.post-content {
+	color: $white-color;
+	padding: 0 1rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
 }
 
 .slide-nav {

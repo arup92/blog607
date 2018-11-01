@@ -530,7 +530,8 @@ nav a {
 .section-one .medium-post-section .small-post h3 {
   font-size: 1.6rem;
 }
-.section-one .post-content {
+
+.post-content {
   color: white;
   padding: 0 1rem;
   position: absolute;
@@ -696,13 +697,6 @@ nav a {
   margin-bottom: .8rem;
 }
 
-.author {
-  background-color: mediumturquoise;
-  padding: 0.2rem .5rem;
-  color: white;
-  font-weight: 600;
-}
-
 .section-three .post-item {
   width: 49%;
   float: left;
@@ -792,6 +786,16 @@ nav a {
 }
 .section-title-red .title {
   background-color: #ff005b;
+}
+
+.post-overlay {
+  position: relative;
+  margin-bottom: .2rem;
+  overflow: hidden;
+}
+.post-overlay h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 /**
