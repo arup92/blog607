@@ -582,12 +582,6 @@ nav a {
 .section-two .post-info {
   margin-bottom: .8rem; }
 
-.author {
-  background-color: mediumturquoise;
-  padding: 0.2rem .5rem;
-  color: white;
-  font-weight: 600; }
-
 .section-three .post-item {
   width: 49%;
   float: left;
