@@ -445,7 +445,8 @@ nav a {
       margin-left: .3%; }
     .section-one .medium-post-section .small-post h3 {
       font-size: 1.6rem; }
-.section-one .post-content {
+
+.post-content {
   color: white;
   padding: 0 1rem;
   position: absolute;
@@ -653,6 +654,14 @@ nav a {
   border-bottom: 0.2rem solid #ff005b; }
   .section-title-red .title {
     background-color: #ff005b; }
+
+.post-overlay {
+  position: relative;
+  margin-bottom: .2rem;
+  overflow: hidden; }
+  .post-overlay h3 {
+    font-size: 1.8rem;
+    font-weight: 700; }
 
 /**
  * --------------------------------------------------------------------------------

@@ -212,3 +212,14 @@
 		background-color: $red-color;
 	}
 }
+
+.post-overlay {
+	position: relative;
+	margin-bottom: .2rem;
+	overflow: hidden;
+
+	h3 {
+		font-size: 1.8rem;
+		font-weight: 700;
+	}
+}
