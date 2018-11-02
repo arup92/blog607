@@ -12,14 +12,34 @@
 		cssEase			: 'ease-out',
 	} );
 
-	$( '.slide-prev' ).click( function(){
+	$( '.section-one .slide-prev' ).click( function(){
 		$( '.slider-banner' ).slick( 'slickPrev' );
 	} );
 
-	$( '.slide-next' ).click( function() {
+	$( '.section-one .slide-next' ).click( function() {
 		$( '.slider-banner' ).slick( 'slickNext' );
 	} );
 
+	/**
+	 * Category Slider Vertical
+	 */
+	$('.cat-slider-vertical').slick( {
+		dots			: false,
+		arrows			: false,
+		autoplay		: true,
+		autoplaySpeed	: 5000,
+		vertical		: true,
+		slidesToShow	: 5,
+		cssEase			: 'ease-out',
+	} );
+
+	$( '.cat-slider-vertical-nav .slide-prev' ).click( function(){
+		$( '.cat-slider-vertical' ).slick( 'slickPrev' );
+	} );
+
+	$( '.cat-slider-vertical-nav .slide-next' ).click( function() {
+		$( '.cat-slider-vertical' ).slick( 'slickNext' );
+	} );
 
 	/**
 	 * Js Marquee

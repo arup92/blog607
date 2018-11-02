@@ -90,6 +90,7 @@
 .section-three,
 .section-four {
 	margin-top: 2.4rem;
+	padding-bottom: .5rem;
 
 	p {
 		margin-bottom: .5rem;
@@ -202,6 +203,7 @@
 
 	.title {
 		background-color: $green-color;
+		font-weight: 900;
 	}
 }
 
@@ -210,16 +212,56 @@
 
 	.title {
 		background-color: $red-color;
+		font-weight: 900;
 	}
 }
 
 .post-overlay {
-	position: relative;
+	height: 19.9rem;
 	margin-bottom: .2rem;
+	position: relative;
 	overflow: hidden;
 
 	h3 {
 		font-size: 1.8rem;
 		font-weight: 700;
+	}
+}
+
+.block {
+	.red {
+
+		div {
+			background-color: $red-color;
+			border-top-left-radius: 2px;
+			border-top-right-radius: 2px;
+		}
+
+		.slide-prev {
+			&:after {
+				content: '\f107';
+				color: $white-color;
+				font-weight: 700;
+			}
+		}
+
+		.slide-next {
+			&:after {
+				content: '\f106';
+				color: $white-color;
+				font-weight: 700;
+			}
+		}
+	}
+
+	.slide-nav {	
+		top: 2.4rem;
+		right: 2.4rem;
+
+		.slide-prev {
+		}
+
+		.slide-next {
+		}
 	}
 }

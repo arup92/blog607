@@ -85,6 +85,15 @@
 	div {
 		display: inline-block;
 	}
+
+	.slide-prev {
+		border-bottom-left-radius: 2px;
+		border-bottom-right-radius: 2px;
+	}
+
+	.slide-next {
+		border-bottom-left-radius: 2px;
+	}
 }
 
 .slide-next {

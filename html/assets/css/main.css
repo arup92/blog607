@@ -94,7 +94,8 @@ a, a:hover, a:focus {
 .block {
   background-color: white;
   margin-bottom: 2.4rem;
-  padding: 2.4rem; }
+  padding: 2.4rem;
+  position: relative; }
 
 .shadow {
   box-shadow: 0 1px 1px 0 rgba(0, 1, 1, 0.1); }
@@ -462,6 +463,11 @@ nav a {
   z-index: 1; }
   .slide-nav div {
     display: inline-block; }
+  .slide-nav .slide-prev {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px; }
+  .slide-nav .slide-next {
+    border-bottom-left-radius: 2px; }
 
 .slide-next {
   background-color: white;
@@ -574,7 +580,8 @@ nav a {
 .section-two,
 .section-three,
 .section-four {
-  margin-top: 2.4rem; }
+  margin-top: 2.4rem;
+  padding-bottom: .5rem; }
   .section-two p,
   .section-three p,
   .section-four p {
@@ -648,20 +655,39 @@ nav a {
 .section-title-blue {
   border-bottom: 0.2rem solid mediumturquoise; }
   .section-title-blue .title {
-    background-color: mediumturquoise; }
+    background-color: mediumturquoise;
+    font-weight: 900; }
 
 .section-title-red {
   border-bottom: 0.2rem solid #ff005b; }
   .section-title-red .title {
-    background-color: #ff005b; }
+    background-color: #ff005b;
+    font-weight: 900; }
 
 .post-overlay {
-  position: relative;
+  height: 19.9rem;
   margin-bottom: .2rem;
+  position: relative;
   overflow: hidden; }
   .post-overlay h3 {
     font-size: 1.8rem;
     font-weight: 700; }
+
+.block .red div {
+  background-color: #ff005b;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px; }
+.block .red .slide-prev:after {
+  content: '\f107';
+  color: white;
+  font-weight: 700; }
+.block .red .slide-next:after {
+  content: '\f106';
+  color: white;
+  font-weight: 700; }
+.block .slide-nav {
+  top: 2.4rem;
+  right: 2.4rem; }
 
 /**
  * --------------------------------------------------------------------------------
