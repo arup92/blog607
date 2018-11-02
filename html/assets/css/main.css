@@ -591,7 +591,6 @@ nav a {
   margin-bottom: .8rem; }
 
 .section-three .post-item {
-  width: 49%;
   float: left;
   margin-right: 1%; }
 .section-three .big-category-section h2 {
@@ -688,6 +687,14 @@ nav a {
 .block .slide-nav {
   top: 2.4rem;
   right: 2.4rem; }
+
+.single-post-category {
+  display: inline-block;
+  margin-right: 2%;
+  width: 49%;
+  float: left; }
+  .single-post-category:last-child {
+    margin-right: 0; }
 
 /**
  * --------------------------------------------------------------------------------

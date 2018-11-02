@@ -105,7 +105,6 @@
 
 .section-three {
 	.post-item {
-		width: 49%;
 		float: left;
 		margin-right: 1%;
 	}
@@ -263,5 +262,16 @@
 
 		.slide-next {
 		}
+	}
+}
+
+.single-post-category {
+	display: inline-block;
+	margin-right: 2%;
+	width: 49%;
+	float: left;
+
+	&:last-child {
+		margin-right: 0;
 	}
 }
